@@ -3,7 +3,7 @@ import axios from 'axios'
 import Display from './Display/Display.jsx';
 import Body from './Body/Body.jsx';
 import { Provider } from 'react-redux';
-import { store } from './store/Store.js';
+import { store } from './store/store.js';
 function App() {
   return (
     <Provider store={store}>
