@@ -6,7 +6,7 @@ import { useDispatch,useSelector } from 'react-redux';
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { HiAdjustmentsHorizontal } from "react-icons/hi2";
 import DisplayIcon from '../assets/DisplayIcon';
-import Down from '../assets/down';
+import Down from '../assets/Down';
 function Display() {
     const dispatch=useDispatch()
     const [group,setGroup]=useState(()=>sessionStorage.getItem('group') || 'Status')
