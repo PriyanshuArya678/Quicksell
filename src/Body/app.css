@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+#body{
+    background-color: #F4F6FA;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+#kanban-board{
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F6FA;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+#component{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 15px;
+    margin-top: 8px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-header-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.right-header-part{
+    display: flex;
+    flex-direction: row;
+}
+.heading{
+    padding: 0 8px 0px 8px;
+    font-size: 17px;
+    font-weight: 500
+}
+.count{
+    color: #9D9EA2;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 20px;
+}
+
+@media (max-width: 1200px) {
+    .header{
+        min-height:60px;
+    }
+}
+/* Container to hold the image and the circle */
+.image-container {
+    position: relative; /* Establishes a positioning context */
+    display: inline-block; /* Adjusts to the size of the image */
+  }
+
+  /* Styling for the circle */
+  .circle {
+    position: absolute; /* Positions the circle relative to the container */
+    bottom: 2px; /* Distance from the bottom of the container */
+    left: 12px; /* Distance from the left of the container */
+    width: 8px; /* Width of the circle */
+    height: 8px; /* Height of the circle */
+    background-color: #DFE1E3; /* Semi-transparent red color */
+    border-radius: 50%; /* Makes the div a circle */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Adds a subtle shadow */
+  }
+  
