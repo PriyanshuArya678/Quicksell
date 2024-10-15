@@ -8,6 +8,7 @@
     height: 160px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: 10px 0px 10px 0px;
     border-radius: 8px;
     padding: 10px 0px 0px 10px;
@@ -78,7 +79,7 @@
 }
 @media (max-width: 1200px) {
     #card{
-        min-height:300px;
+        min-height:350px;
     }
     #lower-part{
         flex-direction: column;

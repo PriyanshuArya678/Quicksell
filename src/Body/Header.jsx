@@ -1,5 +1,4 @@
 import React from 'react'
-import './app.css'
 import Add from '../assets/Add'
 import Dotmenu from '../assets/Dotmenu'
 import Myimage from '../assets/profile.png'
