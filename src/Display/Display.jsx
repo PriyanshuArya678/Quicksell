@@ -46,7 +46,7 @@ function Display() {
         {
             openDropDown&&(
                 <div id='drop-down'>
-                    <div class='innerdrop-down'>
+                    <div className='innerdrop-down'>
                         <span >Grouping</span>
                         <select onChange={Groupchange} name="grouping" value={group} >
                             <option value="Status">Status</option>
@@ -54,8 +54,8 @@ function Display() {
                             <option value="User">User</option>
                         </select>
                     </div>
-                    <div class='innerdrop-down'>
-                        <span>Orderering</span>
+                    <div className='innerdrop-down'>
+                        <span>Ordering</span>
                         <select onChange={Orderchange} name="ordering" value={order}>
                             <option value="Priority">Priority</option>
                             <option value="Title">Title</option>
